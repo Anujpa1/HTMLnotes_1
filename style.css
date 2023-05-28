@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.child1,.child3,.child6,.child8,.child9,.child11,.child13,.child15,.child16,.child17{
+    box-sizing: border-box;    
+}
+h3{
+    font-size: 25px;
+    padding: 10px 0 0 30px;
+    color: darkblue;
+}
+p{
+    font-size: large;
+    padding: 30px;
+    color: lightslategray;
+
+}
+.child2,.child4,.child7,.child10,.child12,.child14{
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 357px;
+}
+h4{
+    padding: 5px 0 0 20px;
+    color: darkblue;
+}
+.img{
+    padding: 10px 0 0 28px;
+    height: 180px;
+    width: 400px;
+}
+.img1{
+    width: 500px;
+    height: 60px;
+    padding: 10px 30px 0 28px;
+}
+
+/* MEDIA QUERY MOBILE VIEW */
+@media (max-width: 768px)
+{
+    body{
+        background-color: white;
+    }
+    .container{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 80%;
+    }
+    .child1,.child3,.child6,.child8,.child9,.child11,.child13,.child15,.child16,.child17{
+        flex-wrap: wrap;
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-left: 35px;
+        box-sizing: border-box;
+        justify-content: space-around;
+        box-shadow: 1px 1px 20px grey;
+    }
+    h3{
+        color: red;
+    }
+    h4{
+        color: red;
+        text-align: center;
+        font-size: 20px;
+        text-shadow: 2px 2px 5px blue;
+    }
+    .child2,.child4,.child7,.child10,.child12,.child14{
+        display: block;
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        
+    }
+    .img{
+        width: 100%;
+    }
+    .img1{
+        width: 100%;
+    }
+    .big{
+        text-align: left;
+        margin-top: -30px;
+        padding-left: 50px;
+        word-spacing: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET MEDIA QUERY */
+/* @media (min-width: 769px) and (max-width: 1023px)
+{
+    body{
+        background-color: lightcyan;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        gap: 10px;
+        margin-top: 30px;
+        height: auto;
+        width: 95%;
+        flex-direction: row;
+    }
+    .child1{
+        flex-wrap: wrap;
+        display: flex;
+        width: 50%;
+        height: 670px;
+        box-sizing: border-box;
+        justify-content: space-around;
+        box-shadow: 5px 5px 5px grey;
+    }
+    h3{
+        color: red;
+    }
+    h4{
+        text-align: center;
+        color: red;
+    }
+    .child2{
+        display: block;
+        width: 50%;
+        height: auto;
+        box-sizing: border-box;
+    }
+    .img{
+        width: 100%;
+    }
+    .img1{
+        width: 100%;
+    }
+} */
